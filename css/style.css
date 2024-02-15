@@ -60,6 +60,8 @@ ol {
 .header-icon {
   fill: #757575;
   margin-right: 10px;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-icon:hover,
@@ -76,6 +78,8 @@ ol {
   padding-bottom: 32px;
   display: block;
   margin-right: 30px;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-item:focus,
@@ -96,6 +100,8 @@ ol {
   letter-spacing: 0.28px;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel:focus,
@@ -310,6 +316,8 @@ ol {
   border-top: none;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*------------------------------------SOCIAL------------- */
@@ -329,6 +337,8 @@ ol {
   background-color: #ffffff;
   align-items: center;
   justify-content: center;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-item:focus,
@@ -346,6 +356,8 @@ ol {
 
 .social-icon {
   fill: #afb1b8;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-li:last-child {
@@ -459,6 +471,8 @@ ol {
   font-size: 14px;
   line-height: 1.71; /* 171.429% */
   letter-spacing: 0.42px;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-nav:hover {
@@ -507,6 +521,8 @@ ol {
   border-radius: 4px;
   width: 170px;
   height: 92px;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:focus,
@@ -533,6 +549,8 @@ ol {
   height: 44px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255, 0.1);
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress {
@@ -542,6 +560,8 @@ ol {
 .footer-item:focus,
 .footer-item:hover {
   background-color: #2196f3;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-item:focus,
@@ -551,6 +571,8 @@ ol {
 
 .footer-icon {
   fill: #ffffff;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links {
@@ -587,6 +609,9 @@ ol {
   padding: 6px 22px;
   cursor: pointer;
   border: none;
+
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-portfolio:focus,
@@ -644,6 +669,8 @@ ol {
 
 .portfolio-link {
   display: block;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:focus,
@@ -714,7 +741,9 @@ ol {
   fill: #000000;
   border-color: rgb(0, 0, 0, 0.1);
   background: #ffffff;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
   top: 0;
   right: 0;
