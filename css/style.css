@@ -60,7 +60,7 @@ ol {
 .header-icon {
   fill: #757575;
   margin-right: 10px;
-  transition: transform 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -78,7 +78,7 @@ ol {
   padding-bottom: 32px;
   display: block;
   margin-right: 30px;
-  transition: transform 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -100,7 +100,8 @@ ol {
   letter-spacing: 0.28px;
   padding-top: 32px;
   padding-bottom: 32px;
-  transition: transform 250ms;
+  transition-property: color;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -316,7 +317,7 @@ ol {
   border-top: none;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  transition: transform 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -337,7 +338,8 @@ ol {
   background-color: #ffffff;
   align-items: center;
   justify-content: center;
-  transition: transform 250ms;
+  transition-property: cbackground-color, fill;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -356,7 +358,8 @@ ol {
 
 .social-icon {
   fill: #afb1b8;
-  transition: transform 250ms;
+  transition-property: fill;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -471,7 +474,8 @@ ol {
   font-size: 14px;
   line-height: 1.71; /* 171.429% */
   letter-spacing: 0.42px;
-  transition: transform 250ms;
+  transition-property: color;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -521,7 +525,8 @@ ol {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  transition: transform 250ms;
+  transition-property: border-color, fill;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -549,7 +554,8 @@ ol {
   height: 44px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255, 0.1);
-  transition: transform 250ms;
+  transition-property: cbackground-color, fill;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -560,7 +566,7 @@ ol {
 .footer-item:focus,
 .footer-item:hover {
   background-color: #2196f3;
-  transition: transform 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -571,7 +577,8 @@ ol {
 
 .footer-icon {
   fill: #ffffff;
-  transition: transform 250ms;
+  transition-property: fill;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -609,8 +616,8 @@ ol {
   padding: 6px 22px;
   cursor: pointer;
   border: none;
-
-  transition: transform 250ms;
+  transition-property: color;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -669,7 +676,8 @@ ol {
 
 .portfolio-link {
   display: block;
-  transition: transform 250ms;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -698,7 +706,7 @@ ol {
   line-height: 1.55; /* 155.556% */
   letter-spacing: 0.54px;
   transform: translatey(100%);
-  transition: transform 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -724,7 +732,7 @@ ol {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  transition: transform 250ms;
+  transition-duration: 250ms;
   width: 528px;
   min-height: 581px;
   padding: 14px;
