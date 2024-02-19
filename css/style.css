@@ -606,7 +606,7 @@ ol {
   margin-right: 70px;
 }
 
-/*-------------------portfolio --------------------*/
+/*------------------------------------PORTFOLIO --------------------*/
 
 .btn-portfolio {
   font-weight: 500;
@@ -619,7 +619,7 @@ ol {
   cursor: pointer;
   border: none;
   transition-property: color, box-shadow, background-color;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -630,7 +630,7 @@ ol {
   color: var(--color-white);
   background-color: var(--color-blue);
   cursor: pointer;
-  border-radius: 4px;
+
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
