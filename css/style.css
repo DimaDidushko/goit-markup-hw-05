@@ -57,6 +57,14 @@ ol {
 
 /* ----------------------HEADER-------------------- */
 
+.item {
+  margin-right: 50px;
+}
+
+.item-mail {
+  margin-right: 30px;
+}
+
 .header-icon {
   fill: #757575;
   margin-right: 10px;
@@ -78,7 +86,7 @@ ol {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
-  margin-right: 30px;
+
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -125,10 +133,6 @@ ol {
 .mail:focus .header-icon,
 .mail:hover .header-icon {
   fill: var(--color-blue);
-}
-
-.mail {
-  margin-right: 50px;
 }
 
 .header {
